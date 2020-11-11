@@ -2,10 +2,10 @@
 
 The Reversal algorithm is used for rotating the array in **K** places.
 
-Array Rotation can take place in **Three** ways.
+Array Reversal Algorithm can take place in **Two** ways.
  - Left Rotation
  - Right Rotation
- - In-Place Rotation
+ 
  ## Left Rotation
 
 `Input :  arr[] = [1, 2, 3, 4, 5, 6, 7] `
@@ -17,12 +17,6 @@ Array Rotation can take place in **Three** ways.
 `Input :  arr[] = [1, 2, 3, 4, 5, 6, 7] `
                 `d = 2`
 `Output : arr[] = [6, 7, 1, 2, 3, 4, 5]`
-
-## In-Place Rotation
-
-`Input :  arr[] = [1, 2, 3, 4, 5, 6, 7] `
-                
-`Output : arr[] = [7, 6, 5, 4, 3, 2, 1]`
 
 
 ## Algorithm
@@ -36,7 +30,6 @@ For Right Rotation
  2. reverse(arr[], 0, d-1) ;
  3.  reverse(arr[], d , n-1);
  
- For In-Place Rotation
  
 
 ## Complexity
