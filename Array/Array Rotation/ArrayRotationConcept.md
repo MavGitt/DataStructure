@@ -21,7 +21,7 @@ Array Rotation can take place in **Three** ways.
 ## In-Place Rotation
 
 `Input :  arr[] = [1, 2, 3, 4, 5, 6, 7] `
-                `
+                
 `Output : arr[] = [7, 6, 5, 4, 3, 2, 1]`
 
 
